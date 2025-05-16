@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(205, 205, 205);
+}
+#img-inicial {
+  background-image: url(bg-3.jpg);
+  height: 500px;
+  background-position: auto;
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.h-cor {
+  background-color: rgb(192, 188, 188);
+  margin-bottom: 15px;
+  padding: 0px;
+
+  font-size: 25px;
+}
+.ajuste-conteudo {
+  background-color: rgb(213, 220, 220);
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+.saiba-mais {
+  background-color: rgb(130, 131, 130);
+  padding: 8px;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  float: left;
+  margin-top: 15px;
+}
+
+.lista-inicial {
+  display: flex;
+  list-style-type: none;
+  float: right;
+  margin-top: 30px;
+}
+
+li {
+  margin-right: 50px;
+  border: 20px;
+  border-color: rgb(255, 255, 255);
+}
+
+li > a {
+  border: 2px solid rgb(252, 252, 252);
+  color: aliceblue;
+  padding: 8px;
+}
+footer {
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div {
+  text-align: center;
+  padding-top: 200px;
+}
+h1 {
+  color: white;
+  font-size: 40px;
+  text-shadow: 5px 5px 5px black;
+}
+
+#texto-header {
+  color: rgb(255, 255, 255);
+}
+
+#hero-header {
+  display: inline-block;
+  padding: 15px;
+  background-color: black;
+  opacity: 70%;
+  border-bottom: 3px solid white;
+  margin-top: 60px;
+}
+
+#last-footer {
+  background-color: rgb(111, 111, 111);
+  color: rgb(247, 247, 247);
+  margin: 0;
+  padding: 25px;
+  margin-top: 20px;
+}
